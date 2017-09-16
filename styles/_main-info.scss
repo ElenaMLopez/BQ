@@ -1,0 +1,53 @@
+.main-info{
+  background-color: $lighter-color;
+  display: flex;
+}
+
+.categories{
+  text-align: left;
+  padding-left: 10px;
+  width: 15%;
+}
+.categories-ul{
+  @include u-list;
+  background-color: $darken-color;
+  color: white;
+  font-weight: bold;
+  line-height: 40px;
+   & li{
+     margin-left: 10px;
+   }
+}
+.categories-sublist{
+  @include u-list;
+  background-color: $middle-color;
+}
+
+// CATALOGUE STILES //
+
+.catalogue{
+  text-align: center;
+  padding: 0 10px;
+  width: 40%;
+}
+.catalogue-products{
+  color: white;
+  display: flex;
+  flex-wrap: wrap;
+  margin: 0 auto;
+  width: 100%;
+}
+.catalogue-product{
+  align-items: center;
+  background-color: $dark-color;
+  display: flex;
+  margin: 5px 10px;
+  height: 200px;
+  justify-content: center;
+  width: 150px;
+}
+
+// FEATURED PRODUCT STYLES //
+.featured-product{
+  text-align: center;
+}

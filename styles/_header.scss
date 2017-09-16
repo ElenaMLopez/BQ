@@ -1,0 +1,30 @@
+.header{
+  display: flex;
+}
+.header-logo{
+  align-items: center;
+  display: block;
+  margin: 0;
+  padding: 10px;
+  text-align: center;
+  width: 10%;
+}
+.header-list{
+  @include u-list;
+  background-color: $darken-color;
+  color: white;
+  display: flex;
+  justify-content: space-around;
+  margin: 0;
+  width: 90%;
+}
+.header-ul-element{
+  display: block;
+  padding: 10px 50px;
+  text-align: center;
+  transition: 0.5s linear 0s;
+  width: 25%;
+  &:hover{
+    background-color: $dark-color;
+  }
+}

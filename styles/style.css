@@ -1,0 +1,110 @@
+* {
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+  font-family: 'Roboto', sans-serif; }
+
+body {
+  margin: 0; }
+
+a {
+  text-decoration: none;
+  color: inherit; }
+
+.header {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex; }
+
+.header-logo {
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  display: block;
+  margin: 0;
+  padding: 10px;
+  text-align: center;
+  width: 10%; }
+
+.header-list {
+  list-style: none;
+  margin: 10px 0;
+  padding: 0;
+  background-color: #363636;
+  color: white;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-pack: distribute;
+      justify-content: space-around;
+  margin: 0;
+  width: 90%; }
+
+.header-ul-element {
+  display: block;
+  padding: 10px 50px;
+  text-align: center;
+  -webkit-transition: 0.5s linear 0s;
+  transition: 0.5s linear 0s;
+  width: 25%; }
+  .header-ul-element:hover {
+    background-color: #666666; }
+
+.main-info {
+  background-color: #f3f3f3;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex; }
+
+.categories {
+  text-align: left;
+  padding-left: 10px;
+  width: 15%; }
+
+.categories-ul {
+  list-style: none;
+  margin: 10px 0;
+  padding: 0;
+  background-color: #363636;
+  color: white;
+  font-weight: bold;
+  line-height: 40px; }
+  .categories-ul li {
+    margin-left: 10px; }
+
+.categories-sublist {
+  list-style: none;
+  margin: 10px 0;
+  padding: 0;
+  background-color: #989898; }
+
+.catalogue {
+  text-align: center;
+  padding: 0 10px;
+  width: 40%; }
+
+.catalogue-products {
+  color: white;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-wrap: wrap;
+      flex-wrap: wrap;
+  margin: 0 auto;
+  width: 100%; }
+
+.catalogue-product {
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  background-color: #666666;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  margin: 5px 10px;
+  height: 200px;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  width: 150px; }
+
+/*# sourceMappingURL=style.css.map */
