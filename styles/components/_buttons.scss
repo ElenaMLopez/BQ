@@ -1,0 +1,6 @@
+.button-send{
+  @include button;
+  background-color: $darken-color;
+  color: white;
+  padding: 5px;
+}
