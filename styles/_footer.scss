@@ -1,0 +1,13 @@
+.footer{
+  background-color: $darken-color;
+  color: white;
+  display: flex;
+  justify-content: space-around;
+}
+.footer-section{
+  width: 30%;
+}
+.footer-list{
+  font-size: 0.85em;
+  line-height: 40px;
+}

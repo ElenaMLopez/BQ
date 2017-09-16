@@ -1,12 +1,13 @@
 .main-info{
   background-color: $lighter-color;
   display: flex;
+  padding-bottom: 20px;
 }
 
 .categories{
   text-align: left;
   padding-left: 10px;
-  width: 15%;
+  width: 20%;
 }
 .categories-ul{
   @include u-list;
@@ -42,9 +43,9 @@
   background-color: $dark-color;
   display: flex;
   margin: 5px 10px;
-  height: 200px;
+  height: 175px;
   justify-content: center;
-  width: 150px;
+  width: 125px;
 }
 
 // FEATURED PRODUCT STYLES //
