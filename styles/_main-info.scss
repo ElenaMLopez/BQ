@@ -15,13 +15,18 @@
   color: white;
   font-weight: bold;
   line-height: 40px;
-   & li{
-     margin-left: 10px;
-   }
+}
+.down-icon{
+  position: relative;
+  top: 3px;
 }
 .categories-sublist{
   @include u-list;
   background-color: $middle-color;
+  display: none;
+}
+.submenu-list:hover > .categories-sublist{
+  display: block;
 }
 
 // CATALOGUE STILES //

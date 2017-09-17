@@ -1,9 +1,18 @@
+// COLOURS
+$darken-color: #363636;
+$dark-color: #666666;
+$middle-color: #989898;
+$lighter-color: #f3f3f3;
+
+//
+
 *{
   box-sizing: border-box;
   font-family: 'Roboto', sans-serif;
 }
 body{
   margin: 0;
+  color: $dark-color;
 }
 a{
   text-decoration: none;
@@ -15,8 +24,3 @@ a{
 .italic{
   font-style: italic;
 }
-// COLOURS
-$darken-color: #363636;
-$dark-color: #666666;
-$middle-color: #989898;
-$lighter-color: #f3f3f3;

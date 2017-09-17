@@ -9,7 +9,7 @@
   text-align: center;
   width: 10%;
 }
-.header-list{
+.header-nav{
   @include u-list;
   background-color: $darken-color;
   color: white;
@@ -18,7 +18,7 @@
   margin: 0;
   width: 90%;
 }
-.header-ul-element{
+.header-nav-element{
   display: block;
   padding: 10px 50px;
   text-align: center;
