@@ -8,7 +8,7 @@
   </head>
   <body>
     <header class="header">
-      <img class="header-logo bold" src="images/logo.png" alt="Logo">
+      <img class="header-logo bold" src="#" alt="Logo">
       <ul class="header-nav bold">
         <li class="header-nav-element"><a href="#">Item 1</a></li>
         <li class="header-nav-element"><a href="#">Item 2</a></li>
@@ -69,9 +69,9 @@
             <div class="featured-produc-form" action="index.html" method="post">
               <p class="bold">Request form</p>
               <form class="form-request" action="index.html" method="post">
-                <input class="input" type="text" name="name" onfocus="" placeholder="Name">
-                <input class="input" type="text" name="mail" placeholder="E-mail">
-                <button class="button-send bold" type="button" name="button">Send</button>
+                <input id="nameInput" class="input" type="text" name="name" onfocus="" placeholder="Name">
+                <input id="mailInput" class="input" type="text" name="mail" placeholder="E-mail">
+                <button id="sendInfoBtn" class="button-send bold" type="button" name="button">Send</button>
               </form>
             </div>
           </div>
@@ -112,12 +112,12 @@
       </div>
     </footer>
     <!-- SEND MODAL -->
-    <div class="modal send-modal hidden">
+    <div id="sendModal" class="send-modal hidden">
       <div class="send-modal-info">
         <p>Your info was send. Soon you recibe an e-mail with the product info.</p>
-        <button class="button-close"type="button" name="button">Close</button>
+        <button id="closeModalBtn" class="button-close"type="button" name="button">Close</button>
       </div>
     </div>
-    <script src="main.js" charset="utf-8"></script>
+    <script src="js/main.js" charset="utf-8"></script>
   </body>
 </html>

@@ -14,16 +14,12 @@ a {
 li {
   margin-left: 10px; }
 
-.bold {
-  font-weight: bold; }
-
-.italic {
-  font-style: italic; }
-
 .header {
   display: -webkit-box;
   display: -ms-flexbox;
-  display: flex; }
+  display: flex;
+  position: fixed;
+  width: 100%; }
 
 .header-logo {
   -webkit-box-align: center;
@@ -47,6 +43,7 @@ li {
   -ms-flex-pack: distribute;
       justify-content: space-around;
   margin: 0;
+  white-space: nowrap;
   width: 90%; }
 
 .header-nav-element {
@@ -64,7 +61,8 @@ li {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
-  padding-bottom: 20px; }
+  padding-bottom: 20px;
+  padding-top: 40px; }
 
 .categories {
   text-align: left;
@@ -98,6 +96,7 @@ li {
 .catalogue {
   text-align: center;
   padding: 0 10px;
+  min-width: 310px;
   width: 35%; }
 
 .catalogue-products {
@@ -222,7 +221,8 @@ li {
 .footer-list {
   font-size: 0.85em;
   line-height: 40px;
-  padding-left: 0; }
+  padding-left: 0;
+  white-space: nowrap; }
 
 .button-send, .button-close {
   background-color: none;
@@ -284,5 +284,14 @@ li {
   margin-top: 200px;
   padding: 20px;
   width: 400px; }
+
+.bold {
+  font-weight: bold; }
+
+.italic {
+  font-style: italic; }
+
+.hidden {
+  display: none; }
 
 /*# sourceMappingURL=style.css.map */

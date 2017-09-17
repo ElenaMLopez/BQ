@@ -2,6 +2,7 @@
   background-color: $lighter-color;
   display: flex;
   padding-bottom: 20px;
+  padding-top: 40px;
 }
 
 .categories{
@@ -36,6 +37,7 @@
 .catalogue{
   text-align: center;
   padding: 0 10px;
+  min-width: 310px;
   width: 35%;
 }
 .catalogue-products{
