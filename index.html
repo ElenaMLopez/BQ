@@ -9,7 +9,7 @@
   <body>
     <header class="header">
       <img class="header-logo bold" src="images/logo.png" alt="Logo">
-      <ul class="list header-nav">
+      <ul class="header-nav bold">
         <li class="header-nav-element"><a href="#">Item 1</a></li>
         <li class="header-nav-element"><a href="#">Item 2</a></li>
         <li class="header-nav-element"><a href="#">Item 3</a></li>
@@ -40,7 +40,7 @@
 
       <div class="catalogue">
         <h3>Catalogue</h3>
-        <div class="catalogue-products">
+        <div class="catalogue-products bold">
           <div class="catalogue-product">
             <p>Product</p>
           </div>
@@ -63,7 +63,7 @@
           <p>Duis autem vel eum iriure dolor in hendrerit in <span class="bold">vulputate velit</span> esse molestie consequat, vel illum dolore <span class="italic">eu feugiat nulla</span> facilisis at vero eros et accumsan et iusto odio
           </p>
           <div class="featured-product-detail">
-            <div class="featured-prodct-image">
+            <div class="featured-prodct-image bold">
               <img src="#" alt="Product Image">
             </div>
             <div class="featured-produc-form" action="index.html" method="post">
@@ -80,34 +80,44 @@
     </section>
 
     <footer class="footer">
-      <div class="footer-section">
-        <h3>Heading</h3>
-        <ul class="footer-list">
-          <li><a href="#">Item 1</a></li>
-          <li><a href="#">Item 2</a></li>
-          <li><a href="#">Item 3</a></li>
-          <li><a href="#">Item 4</a></li>
-        </ul>
-      </div>
-      <div class="footer-section">
-        <h3>Heading</h3>
-        <ol class="footer-list">
-          <li><a href="#">Item 1</a></li>
-          <li><a href="#">Item 2</a></li>
-          <li><a href="#">Item 3</a></li>
-          <li><a href="#">Item 4</a></li>
-        </ol>
-      </div>
-      <div class="footer-section">
-        <h3>Heading</h3>
-        <ul class="footer-list">
-          <li><a href="#">Item 1</a></li>
-          <li><a href="#">Item 2</a></li>
-          <li><a href="#">Item 3</a></li>
-          <li><a href="#">Item 4</a></li>
-        </ul>
+      <h2 class="bold">Footer</h2>
+      <div class="footer-lists">
+        <div class="footer-section">
+          <h3>Heading</h3>
+          <ul class="footer-list">
+            <li><a href="#">Item 1</a></li>
+            <li><a href="#">Item 2</a></li>
+            <li><a href="#">Item 3</a></li>
+            <li><a href="#">Item 4</a></li>
+          </ul>
+        </div>
+        <div class="footer-section">
+          <h3>Heading</h3>
+          <ol class="footer-list">
+            <li><a href="#">Item 1</a></li>
+            <li><a href="#">Item 2</a></li>
+            <li><a href="#">Item 3</a></li>
+            <li><a href="#">Item 4</a></li>
+          </ol>
+        </div>
+        <div class="footer-section">
+          <h3>Heading</h3>
+          <ul class="footer-list">
+            <li><a href="#">Item 1</a></li>
+            <li><a href="#">Item 2</a></li>
+            <li><a href="#">Item 3</a></li>
+            <li><a href="#">Item 4</a></li>
+          </ul>
+        </div>
       </div>
     </footer>
+    <!-- SEND MODAL -->
+    <div class="modal send-modal hidden">
+      <div class="send-modal-info">
+        <p>Your info was send. Soon you recibe an e-mail with the product info.</p>
+        <button class="button-close"type="button" name="button">Close</button>
+      </div>
+    </div>
     <script src="main.js" charset="utf-8"></script>
   </body>
 </html>

@@ -1,6 +1,15 @@
-.button-send{
+.button-send, .button-close{
   @include button;
   background-color: $darken-color;
   color: white;
   padding: 10px;
+  transition: 0.5s linear 0s;
+  &:hover{
+    background-color: $dark-color;
+  }
+}
+.button-close{
+  font-weight: bold;
+  height: 60px;
+  width: 200px;
 }

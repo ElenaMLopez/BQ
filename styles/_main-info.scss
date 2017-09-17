@@ -16,6 +16,7 @@
   font-weight: bold;
   line-height: 40px;
 }
+
 .down-icon{
   position: relative;
   top: 3px;
@@ -27,6 +28,7 @@
 }
 .submenu-list:hover > .categories-sublist{
   display: block;
+  margin-left: -10px;
 }
 
 // CATALOGUE STILES //

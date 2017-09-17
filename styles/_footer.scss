@@ -1,13 +1,28 @@
 .footer{
+  align-items: center;
   background-color: $darken-color;
   color: white;
   display: flex;
+  flex-direction: column;
   justify-content: space-around;
 }
+.footer-lists{
+  align-items: center;
+  display: flex;
+  justify-content: space-around;
+  width: 100%;
+}
+.footer-lists h3{
+  margin: 0;
+}
 .footer-section{
+  align-items: center;
+  display: flex;
+  flex-direction: column;
   width: 30%;
 }
 .footer-list{
   font-size: 0.85em;
   line-height: 40px;
+  padding-left: 0;
 }
