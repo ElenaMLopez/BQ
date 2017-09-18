@@ -1,0 +1,32 @@
+{
+  "name": "bq",
+  "version": "1.0.1",
+  "description": "Version using Gulp",
+  "main": "gulpfile.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/ElenaMLopez/BQ.git"
+  },
+  "keywords": [
+    "SASS",
+    "HTML",
+    "CSS",
+    "JS"
+  ],
+  "author": "Elena Mateos Lopez",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/ElenaMLopez/BQ/issues"
+  },
+  "homepage": "https://github.com/ElenaMLopez/BQ#readme",
+  "devDependencies": {
+    "gulp": "^3.9.1",
+    "gulp-sass": "^3.1.0"
+  },
+  "dependencies": {
+    
+  }
+}
